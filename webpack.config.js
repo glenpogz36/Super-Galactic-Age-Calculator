@@ -17,7 +17,7 @@ module.exports = {
     new UglifyJsPlugin({ sourceMap: true }),
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      title: 'Galactic',
+      title: 'Galaxy',
       template: './src/index.html',
       inject: 'body'
     })
@@ -30,6 +30,10 @@ module.exports = {
           'style-loader',
           'css-loader'
         ]
+      },
+      {
+        test: /\.(png|jpg)$/,
+        loader: 'url-loader'
       },
       {
         test: /\.js$/,
