@@ -42,14 +42,5 @@
     "bootstrap": "^4.0.0",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lCaveh/ProjectGenerator.git"
-  },
-  "bugs": {
-    "url": "https://github.com/lCaveh/ProjectGenerator/issues"
-  },
-  "homepage": "https://github.com/lCaveh/ProjectGenerator#readme",
-  "description": ""
+  }
 }
