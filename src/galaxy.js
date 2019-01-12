@@ -14,13 +14,13 @@ const lifeExpectancy = {
     jupiterLimit: 12
 };
 
-
+// Main Something
 export class galaxy {
     constructor(age) {
         this.age = age;
     }
 
-
+    // Planets Back-End Logic
     // Mercury Planet
     ConvertMercuryAge() {
         return Math.floor((this.age / planetYears.mercuryAge));
@@ -30,11 +30,37 @@ export class galaxy {
         return Math.floor((this.age * lifeExpectancy.mercuryLimit / planetYears.mercuryAge));
     }
 
+    // Mars Planet
+    ConvertMarsAge() {
+        return Math.floor((this.age / planetYears.marsAge));
+    }
+
+    MarsAgeLimit() {
+        return Math.floor((this.age * lifeExpectancy.marsLimit / planetYears.marsAge));
+    }
+
+    // Venus Limit
+    ConvertVenusAge() {
+        return Math.floor((this.age / planetYears.venusAge));
+    }
+
+    VenusAgeLimit() {
+        return Math.floor((this.age * lifeExpectancy.venusLimit / planetYears.venusAge));
+    }
+
+    //   Jupiter Planet
+    ConvertJupiterAge() {
+        return Math.floor((this.age / planetYears.jupiterAge));
+    }
+
+    JupiterAgeLimit() {
+        return Math.floor((this.age * lifeExpectancy.jupiterLimit / planetYears.jupiterAge));
+    }
 
     //  Years Left
     PlanetYearsLeft() {
         var earthAge = 75;
-        if ((this.MercuryAgeLimit() <= earthAge))
+        if ((this.MercuryAgeLimit() || this.MarsAgeLimit() || this.JupiterAgeLimit() || this.VenusAgeLimit() <= earthAge))
             return true;
         else {
             return false;
