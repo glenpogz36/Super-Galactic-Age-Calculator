@@ -23,11 +23,14 @@ _Create a program that Take a person’s age in years and create a class that do
 
 
 ### Specs
-| Spec | Days | Months | Years |  Results  |
-| :-------------    | :------------- | :------------- | :------------- | :------------- |
-<!-- | Program allows user to add new Date| Days: "1" | Months: "1" |  Years: 1998  |  Results: 1/1/1998  |
-| Program allows to input Date and convert into day of the week  | Days: "9"  | Months: "1" |  Years: "2019" |  Result: "Wednesday"  |
-| Program allows to Input Birthday  and converts into number of days in Earth Yeras| Days: "1" | Months: "9" |  Years: "2019" |  Result: "737068"  | -->
+| Spec | Input | Output |
+| :-------------    | :------------- | :-------------|
+| Program Gathers Age of User| Current Age: "user age" | Expected Age: (Planet) |
+| Program Gathers Age of User| Mercury Age | Expected Age: A Mercury year is / .24 Earth years |
+| Program Gathers Age of User| Venus Age "user age" | A Venus year is / .62 Earth years |
+| Program Gathers Age of User| Mars Age "user age" | A Mars year is / 1.88 Earth years |
+| Program Gathers Age of User| Jupiter: "user age" | A Jupiter year / is 11.86 Earth years |
+
 
 
 
