@@ -30,6 +30,10 @@ _Create a program that Take a person’s age in years and create a class that do
 | Program Gathers Age of User| Venus Age "user age" | A Venus year is / .62 Earth years |
 | Program Gathers Age of User| Mars Age "user age" | A Mars year is / 1.88 Earth years |
 | Program Gathers Age of User| Jupiter: "user age" | A Jupiter year / is 11.86 Earth years |
+| Program Gathers Age of User| Saturn: "user age" | A Saturn year / is 11.86 Earth years |
+| Program Gathers Age of User| Uranus: "user age" | A Uranus year / is 29.45 Earth years |
+| Program Gathers Age of User| Neptune: "user age" | A Neptune year / is 164.79 Earth years |
+| Program Gathers Age of User| Pluto: "user age" | A Pluto year / is 247.92 Earth years |
 
 
 
