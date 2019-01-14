@@ -5,7 +5,7 @@ const planetYears = {
     marsAge: 1.88,
     jupiterAge: 11.86,
     saturnAge: 29.45,
-    urnanusAge: 84.01,
+    uranusAge: 84.01,
     neptuneAge: 164.79,
     plutoAge: 247.92,
 };
@@ -17,7 +17,7 @@ const lifeExpectancy = {
     venusLimit: 9,
     jupiterLimit: 12,
     saturnLimit: 15,
-    urnanusLimit: 18,
+    uranusLimit: 18,
     neptuneLimit: 21,
     plutoLimit: 25,
 };
@@ -29,6 +29,8 @@ export class galaxy {
     }
 
     // Planets Back-End Logic
+
+
     // Mercury Planet
     ConvertMercuryAge() {
         return Math.floor((this.age / planetYears.mercuryAge));
@@ -88,7 +90,7 @@ export class galaxy {
     }
 
     NeptuneAgeLimit() {
-        return Math.floor((this.age * lifeExpectancy.neptunerLimit / planetYears.neptuneAge));
+        return Math.floor((this.age * lifeExpectancy.neptuneLimit / planetYears.neptuneAge));
     }
 
     //   Pluto Planet
@@ -104,7 +106,7 @@ export class galaxy {
     //  Years Left
     PlanetYearsLeft() {
         var earthAge = 75;
-        if ((this.MercuryAgeLimit() || this.MarsAgeLimit() || this.JupiterAgeLimit() || this.VenusAgeLimit() || this.SaturnAgeLimit() || this.UranusAgeLimit() || this.NeptuneAgeLimit() || this.PlutoAgeLimit() <= earthAge))
+        if ((this.MercuryAgeLimit() || this.VenusAgeLimit() || this.MarsAgeLimit() || this.JupiterAgeLimit() || this.SaturnAgeLimit() || this.UranusAgeLimit() || this.NeptuneAgeLimit() || this.PlutoAgeLimit() <= earthAge))
             return true;
         else {
             return false;

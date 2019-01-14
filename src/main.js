@@ -10,15 +10,25 @@ $(document).ready(function () {
         event.preventDefault();
         let age = parseInt($("#userInput").val());
         let newAge = new galaxy(age);
-
+        //Planet Age
         $("#mercuryAge").text(newAge.ConvertMercuryAge());
-        $("#marsAge").text(newAge.ConvertMarsAge());
         $("#venusAge").text(newAge.ConvertVenusAge());
+        $("#marsAge").text(newAge.ConvertMarsAge());
         $("#jupiterAge").text(newAge.ConvertJupiterAge());
-        $("#jupiterLifespan").text(newAge.JupiterAgeLimit());
-        $("#marsLifespan").text(newAge.MarsAgeLimit());
-        $("#venusLifespan").text(newAge.VenusAgeLimit());
+        $("#saturnAge").text(newAge.ConvertSaturnAge());
+        $("#uranusAge").text(newAge.ConvertUranusAge());
+        $("#neptuneAge").text(newAge.ConvertNeptuneAge());
+        $("#plutoAge").text(newAge.ConvertPlutoAge());
+
+        //Planet LifeSpan Expentancy
         $("#mercuryLifespan").text(newAge.MercuryAgeLimit());
+        $("#venusLifespan").text(newAge.VenusAgeLimit());
+        $("#marsLifespan").text(newAge.MarsAgeLimit());
+        $("#jupiterLifespan").text(newAge.JupiterAgeLimit());
+        $("#saturnLifespan").text(newAge.SaturnAgeLimit());
+        $("#uranusLifespan").text(newAge.UranusAgeLimit());
+        $("#neptuneLifespan").text(newAge.NeptuneAgeLimit());
+        $("#plutoLifespan").text(newAge.PlutoAgeLimit());
 
 
     });
