@@ -33,73 +33,73 @@ export class galaxy {
 
     // Mercury Planet
     ConvertMercuryAge() {
-        return Math.floor((this.age / planetYears.mercuryAge));
+        return math.round((this.age / planetYears.mercuryAge));
     }
 
     MercuryAgeLimit() {
-        return Math.floor((this.age * lifeExpectancy.mercuryLimit / planetYears.mercuryAge));
+        return math.round((this.age * lifeExpectancy.mercuryLimit / planetYears.mercuryAge));
     }
 
     // Mars Planet
     ConvertMarsAge() {
-        return Math.floor((this.age / planetYears.marsAge));
+        return math.round((this.age / planetYears.marsAge));
     }
 
     MarsAgeLimit() {
-        return Math.floor((this.age * lifeExpectancy.marsLimit / planetYears.marsAge));
+        return math.round((this.age * lifeExpectancy.marsLimit / planetYears.marsAge));
     }
 
     // Venus Limit
     ConvertVenusAge() {
-        return Math.floor((this.age / planetYears.venusAge));
+        return math.round((this.age / planetYears.venusAge));
     }
 
     VenusAgeLimit() {
-        return Math.floor((this.age * lifeExpectancy.venusLimit / planetYears.venusAge));
+        return math.round((this.age * lifeExpectancy.venusLimit / planetYears.venusAge));
     }
 
     //   Jupiter Planet
     ConvertJupiterAge() {
-        return Math.floor((this.age / planetYears.jupiterAge));
+        return math.round((this.age / planetYears.jupiterAge));
     }
 
     JupiterAgeLimit() {
-        return Math.floor((this.age * lifeExpectancy.jupiterLimit / planetYears.jupiterAge));
+        return math.round((this.age * lifeExpectancy.jupiterLimit / planetYears.jupiterAge));
     }
     //   Saturn Planet
     ConvertSaturnAge() {
-        return Math.floor((this.age / planetYears.saturnAge));
+        return math.round((this.age / planetYears.saturnAge));
     }
 
     SaturnAgeLimit() {
-        return Math.floor((this.age * lifeExpectancy.saturnLimit / planetYears.saturnAge));
+        return math.round((this.age * lifeExpectancy.saturnLimit / planetYears.saturnAge));
     }
 
     //   Uranus Planet
     ConvertUranusAge() {
-        return Math.floor((this.age / planetYears.uranusAge));
+        return math.round((this.age / planetYears.uranusAge));
     }
 
     UranusAgeLimit() {
-        return Math.floor((this.age * lifeExpectancy.uranusLimit / planetYears.uranusAge));
+        return math.round((this.age * lifeExpectancy.uranusLimit / planetYears.uranusAge));
     }
 
     //   Neptune Planet
     ConvertNeptuneAge() {
-        return Math.floor((this.age / planetYears.neptuneAge));
+        return math.round((this.age / planetYears.neptuneAge));
     }
 
     NeptuneAgeLimit() {
-        return Math.floor((this.age * lifeExpectancy.neptuneLimit / planetYears.neptuneAge));
+        return math.round((this.age * lifeExpectancy.neptuneLimit / planetYears.neptuneAge));
     }
 
     //   Pluto Planet
     ConvertPlutoAge() {
-        return Math.floor((this.age / planetYears.plutoAge));
+        return math.round((this.age / planetYears.plutoAge));
     }
 
     PlutoAgeLimit() {
-        return Math.floor((this.age * lifeExpectancy.plutoLimit / planetYears.plutoAge));
+        return math.round((this.age * lifeExpectancy.plutoLimit / planetYears.plutoAge));
     }
 
 
